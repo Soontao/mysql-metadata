@@ -1,0 +1,29 @@
+{
+  "name": "mysql-metadata",
+  "version": "1.0.0",
+  "description": "get mysql metadata about databases, tables and fields",
+  "main": "index.js",
+  "engines": {
+    "node": "7.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Soontao/mysql-metadata.git"
+  },
+  "author": "Theo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Soontao/mysql-metadata/issues"
+  },
+  "homepage": "https://github.com/Soontao/mysql-metadata#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "mysql": "^2.13.0"
+  }
+}
